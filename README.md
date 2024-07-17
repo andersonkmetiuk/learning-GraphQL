@@ -8,6 +8,7 @@ npm init -y
 npm install graphql apollo-server nodemon
 npm start
 ```
+
 # First example
 
 ```
@@ -24,6 +25,19 @@ query {
   allDays {
     id
     date
+    mountain
+    conditions
+  }
+}
+```
+
+# Mutation
+
+```
+mutation {
+  removeDay(id: 3) {
+    date
+    id
     mountain
   }
 }
