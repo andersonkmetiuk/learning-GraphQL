@@ -31,7 +31,7 @@ query {
 }
 ```
 
-# Mutation
+# Mutation remove
 
 ```
 mutation {
@@ -39,6 +39,21 @@ mutation {
     date
     id
     mountain
+  }
+}
+```
+
+# Mutation add
+
+```
+mutation {
+  addDay(input: {
+    date: "1/2/2025"
+    mountain: "Apline Meadows"
+    conditions: ICE
+  }) {
+    date
+    id
   }
 }
 ```
