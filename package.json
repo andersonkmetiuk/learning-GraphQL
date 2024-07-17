@@ -1,0 +1,17 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "description": "Learning GraphQL - LinkedinLearning Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0",
+    "nodemon": "^3.1.4"
+  }
+}
