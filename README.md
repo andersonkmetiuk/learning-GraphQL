@@ -57,3 +57,25 @@ mutation {
   }
 }
 ```
+
+# Remove Payload + MockList
+
+```
+mutation{
+  removeDay(id: "123") {
+    day {
+      mountain
+      date
+      conditions
+    }
+  }
+}
+
+query{
+  allDays {
+    date
+    mountain
+    conditions
+  }
+}
+```
