@@ -15,3 +15,16 @@ query {
   totalDays
 }
 ```
+
+# Second example
+
+```
+query {
+  totalDays
+  allDays {
+    id
+    date
+    mountain
+  }
+}
+```
