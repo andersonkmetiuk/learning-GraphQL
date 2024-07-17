@@ -9,7 +9,7 @@ npm install graphql apollo-server nodemon
 npm start
 ```
 
-# First example
+## First example
 
 ```
 query {
@@ -17,7 +17,7 @@ query {
 }
 ```
 
-# Second example
+## Second example
 
 ```
 query {
@@ -31,7 +31,7 @@ query {
 }
 ```
 
-# Mutation remove
+## Mutation remove
 
 ```
 mutation {
@@ -43,7 +43,7 @@ mutation {
 }
 ```
 
-# Mutation add
+## Mutation add
 
 ```
 mutation {
@@ -58,7 +58,7 @@ mutation {
 }
 ```
 
-# Remove Payload + MockList
+## Remove Payload + MockList
 
 ```
 mutation{
@@ -76,6 +76,17 @@ query{
     date
     mountain
     conditions
+  }
+}
+```
+
+## Subscription 
+
+This won't work because there's no mocking for it. This is just an example
+```
+subscription {
+  newDay {
+    date
   }
 }
 ```
